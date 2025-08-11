@@ -225,19 +225,3 @@ RENAME COLUMN duration_days TO total_days;
 
 SELECT *
 FROM wars;
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
