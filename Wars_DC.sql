@@ -223,5 +223,25 @@ RENAME COLUMN duration_years TO years;
 ALTER TABLE wars
 RENAME COLUMN duration_days TO total_days;
 
+#Decided to drop years and days columns
+ALTER TABLE wars
+DROP COLUMN years;
+
+ALTER TABLE wars
+DROP COLUMN days;
+
 SELECT *
-FROM wars;
+FROM wars
+WHERE war LIKE '%Chilean%';
+
+UPDATE wars
+SET start_date = '1810-09-18'
+WHERE war LIKE '%Chilean%';
+
+UPDATE wars
+SET end_date = '1826-01-19'
+WHERE war LIKE '%Chilean%';
+
+UPDATE wars
+SET total_days = end_date - start_date
+WHERE war LIKE '%Chilean%';
