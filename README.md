@@ -1,7 +1,7 @@
 ## Wars Across The Globe
 
-For this project, I'll analyze the different conflicts in the history of mankind. 
+For this project, I cleaned and analyzed an existing database of past and ongoing conflicts around the world using MySQL Workbench. 
 
-The data was acquired from this source: https://www.kaggle.com/datasets/swapnilbhange/series-of-wars-and-conflicts-in-the-world
+Source: https://www.kaggle.com/datasets/swapnilbhange/series-of-wars-and-conflicts-in-the-world
 
 _Paulina Leal_
